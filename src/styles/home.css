@@ -1,0 +1,53 @@
+body {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.text {
+    font-size: 30px;
+    color: red;
+    font-family: impact;
+}
+
+.text2 {
+    padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-family: impact;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    background-color: rgb(108, 108, 108);
+    width: 200px;
+    height: 200px;
+}
+
+.bb2 {
+    padding-left: 50px;
+}
+
+.box2 {
+    background-color: rgb(108, 108, 108);
+    width: 200px;
+    height: 200px;
+}
+
+.bb3 {
+    padding-left: 50px;
+}
+
+.box3 {
+    background-color: rgb(108, 108, 108);
+    width: 200px;
+    height: 200px;
+}
+
+.href {
+    color: red;
+    padding-left: 50px;
+    font-family: impact;
+}
