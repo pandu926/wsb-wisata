@@ -24,12 +24,14 @@ export default function page() {
   const { wisata } = useParams();
   return (
     <div>
-      {data?.map((item) => (
-        <div className="flex">
-          <p className="pr-5">{item.id}</p>
-          <p>{item.name}</p>
-        </div>
-      ))}
+      <h1 className="font-extrabold  mb-10 sm:text-lg md:text-2xl ml-20 mt-10 capitalize">
+        {wisata}
+      </h1>
+      <div className=" flex flex-wrap mx-20">
+        {data?.map((item) => (
+          <Card title={item.name} />
+        ))}
+      </div>
     </div>
   );
 }

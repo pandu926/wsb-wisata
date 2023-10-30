@@ -15,7 +15,9 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "flowbite": "^2.0.0",
     "autoprefixer": "^10",
+    "daisyui": "^3.9.4",
     "postcss": "^8",
     "tailwindcss": "^3"
   }

@@ -35,7 +35,10 @@ export default function Home() {
   }, [data, keyword]);
 
   return (
-    <div className="bg-[url('/bg.png')] bg-blue-500 bg-colo bg-center w-full min-h-screen">
+    <div
+      className="bg-[url('/bg.png')] bg-blue-500 bg-colo bg-center w-full min-h-screen"
+      loading="lazy"
+    >
       <div className="pt-10 capitalize flex justify-between text-white max-w-7xl mx-auto font-bold px-5">
         <Link
           href="/tes"
